@@ -1,0 +1,14 @@
+.stars{
+    display: flex;
+    min-height: 77vh;
+    flex-direction: column;
+    background-size: 50%; 
+    background-position-x: center;
+    background-position-y: 10cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testUser{
+    border-bottom: solid 0.5px grey;
+}

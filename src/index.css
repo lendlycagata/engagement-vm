@@ -1,0 +1,25 @@
+body {
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'HelveticaNeue LT',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT';
+  src: local('HelveticaNeue'), url(./fonts/HelveticaNeueLTStd-Lt.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue BD';
+  src: local('HelveticaNeue BD'), url(./fonts/HelveticaNeueLTStd-Bd.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue TH';
+  src: local('HelveticaNeue TH'), url(./fonts/HelveticaNeueLTStd-Th.otf) format('opentype');
+}

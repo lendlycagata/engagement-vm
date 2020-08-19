@@ -1,0 +1,80 @@
+.myevents{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: 55%; 
+    background-position-x: center;
+    background-position-y: 10cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    font-size: 30px;text-align: center
+}
+
+.calendar{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center
+}
+
+.calendar-row{
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+.date{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 45%; 
+    text-align: center; 
+    height: 55px; 
+    border-color: gray;
+    border-radius: 12px 0px 0px 12px; 
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'HelveticaNeue BD';
+}
+
+.tasks{
+    background-color: #66cc00;
+    /* background-image: linear-gradient(to right, #66cc00, lightgreen); */
+    color: white;
+}
+.details{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 65%;
+    text-align: center; 
+    height: 55px; 
+    margin-left: 10px; 
+    border: solid 2px gray; 
+    border-radius: 0px 12px 12px 0px; 
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'HelveticaNeue BD';
+}
+
+.events{
+    height: 100vh;
+}
+
+.eventLink{
+    height: 50%;
+    color: black;
+    text-decoration: none;
+}
+
+.eventLink:active{
+    color: black;
+    text-decoration: none;
+}
+
+.eventLink:hover{
+    color: black;
+    text-decoration: none;
+}

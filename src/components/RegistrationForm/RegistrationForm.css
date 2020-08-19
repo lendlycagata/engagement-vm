@@ -1,0 +1,25 @@
+.loginText {
+    color: #49166D;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+}
+
+.alert{
+    position: relative;
+}
+
+.registration{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: 50%; 
+    background-position-x: center;
+    background-position-y: 15cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

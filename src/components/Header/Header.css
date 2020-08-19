@@ -1,0 +1,88 @@
+.img {
+  margin: auto;
+  height: 35px;
+  width: 35px;
+  opacity: 0.3;
+}
+
+.nav {
+  text-align: left;
+  margin-right: auto;
+}
+
+.navbar {
+  text-align: justify;
+  margin-right: auto;
+  text-align: start;
+  background: #4b286d;
+}
+
+.navbar-brand {
+  color: whitesmoke;
+  align-items: flex-start;
+}
+
+.form-text {
+  color: whitesmoke;
+}
+
+.navbar {
+  background-color: #4b286d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+.telus-header {
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.telus-user {
+  display: flex;
+  flex-direction: row;
+}
+
+.telus-user-icon {
+  margin-right: 5px;
+}
+
+.logout-button {
+  color: whitesmoke;
+}
+
+.logout-button:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.logout-button:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#dropdown-basic {
+  background-color: inherit;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+
+#dropdown-basic:hover {
+  background-color: #4b286d;
+  text-decoration: none;
+  outline: none;
+  border-color: #4b286d;
+}
+
+#dropdown-basic:active {
+  background-color: #4b286d;
+  text-decoration: none;
+  border-color: #4b286d;
+}

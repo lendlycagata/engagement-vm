@@ -1,0 +1,21 @@
+.login-card {
+    display: flex;
+    min-height: 77vh;
+    flex-direction: column;
+    background-size: 60%; 
+    background-position-x: center;
+    background-position-y: 10cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.registerMessage {
+    bottom: 0;
+    margin-top: 1vh;
+    color: black
+}
+
+.btn-primary {
+    background-color: #49166D;
+    border-color: #49166D;
+}

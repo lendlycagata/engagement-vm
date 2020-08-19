@@ -1,0 +1,79 @@
+{
+  "name": "engagement-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@wojtekmaj/react-timerange-picker": "^3.0.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonfile": "^6.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.4.2",
+    "moment": "^2.26.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-calendar": "^3.1.0",
+    "react-date-picker": "^8.0.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-time-picker": "^4.0.1",
+    "rxjs": "^6.5.5",
+    "sequelize": "^5.21.12",
+    "typeface-roboto": "0.0.75",
+    "vhost": "^3.0.2",
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.3",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-openidconnect": "0.0.2",
+    "request": "^2.88.2",
+    "serve-favicon": "~2.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js",
+    "client": "npm start src",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:4000",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

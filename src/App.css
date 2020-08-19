@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  @media screen and (max-width: 991px) {
+      min-height: 80vh;
+  }   
+  font-family: 'HelveticaNeueLTStd-Lt';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: local('HelveticaNeue'), url(./fonts/HelveticaNeueLTStd-Lt.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue BD';
+  src: local('HelveticaNeue BD'), url(./fonts/HelveticaNeueLTStd-Bd.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue TH';
+  src: local('HelveticaNeue TH'), url(./fonts/HelveticaNeueLTStd-Th.otf) format('opentype');
+}

@@ -1,0 +1,10 @@
+.alert {
+    position: absolute;
+    top: 0;
+}
+
+.alertMessage{
+    position: absolute;
+    min-width: 200px;
+    justify-content: space-between;
+}

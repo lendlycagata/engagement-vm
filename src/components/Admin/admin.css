@@ -1,0 +1,9 @@
+.admin{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.push{
+    height: 80px;
+}

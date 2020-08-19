@@ -1,0 +1,44 @@
+.parent{
+    background-color: #4b286d; 
+    padding: 10px; 
+    width: 100%;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.95;
+}
+
+.row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.column-home{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: 10px;
+    bottom: 0;
+}
+
+.home-icon{
+    height: 50%
+}
+
+.home-text{
+    height: 50%;
+    color: #9ea5ae;
+    text-decoration: none;
+}
+
+.home-text:active{
+    color: #9ea5ae;
+    text-decoration: none;
+}
+
+.home-text:hover{
+    color: #9ea5ae;
+    text-decoration: none;
+}

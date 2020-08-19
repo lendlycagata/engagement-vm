@@ -1,0 +1,35 @@
+ .home{
+    display: flex;
+    min-height: 77vh;
+    flex-direction: column;
+}
+
+
+.events{ 
+    clear: both; 
+    height: 60px; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.starsicon{
+    position: relative;
+    top: 50px;
+    left: 5px;
+}
+
+.imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.imgContainer {
+    width: 300px;
+    height: 200px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
